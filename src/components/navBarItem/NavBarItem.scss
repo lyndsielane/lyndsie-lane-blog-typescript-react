@@ -1,0 +1,14 @@
+@import "../../variables.scss";
+
+.NavBarItem {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: $navbar-item-color;
+  margin-bottom: 17px;
+
+  &.active {
+    color: $accent-color;
+    font-weight: bold;
+  }
+}

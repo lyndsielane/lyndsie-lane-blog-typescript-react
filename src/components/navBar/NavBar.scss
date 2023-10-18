@@ -1,0 +1,57 @@
+@import "../../variables.scss";
+
+.NavBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  background-color: $primary-color;
+
+  .topSection {
+    margin-top: 30px;
+
+    img {
+      border-radius: 50%;
+      border: 2px solid $accent-color;
+      width: 150px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    /*.menuIcon {
+      visibility: hidden;
+      font-size: 35px;
+      cursor: pointer;
+    }*/
+
+    .items {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  
+      /*&.hidden {
+        visibility: hidden;
+      }*/
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .Menu {
+    flex-direction: row-reverse;
+
+    /*.menuIcon {
+      visibility: visible;
+    }*/
+
+    .topSection > .items {
+      flex-direction: column;
+      align-items: center;
+      background-color: $secondary-color;
+      margin-top: 190px;
+      position: absolute;
+      right: 0;
+    }
+  }
+}

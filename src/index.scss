@@ -1,0 +1,31 @@
+@import "variables";
+
+body {
+  font: 100% $font-stack;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  color: $font-color;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 375px;
+
+  #root {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+    .container {
+      flex: 1;
+      display: flex;
+
+      .content {
+        padding: 50px;
+        width: 50%;
+      }
+    }
+  }
+}

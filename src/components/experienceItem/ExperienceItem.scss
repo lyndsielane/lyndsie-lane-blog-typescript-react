@@ -1,0 +1,26 @@
+@import "../../variables.scss";
+
+.ExperienceItem {
+  display: flex;
+  flex-direction: column;
+
+  .topRow {
+    display: flex;
+    justify-content: space-between;
+
+    .companyName {
+      font-size: 22px;
+      font-weight: bold;
+      color: $secondary-color;
+    }
+  }
+
+  .title {
+    font-style: italic;
+    margin-bottom: 15px;
+  }
+
+  .description {
+    text-align: justify;
+  }
+}

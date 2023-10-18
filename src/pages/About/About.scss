@@ -1,0 +1,22 @@
+@import "../../variables.scss";
+
+.About {
+
+  .name {
+    font-weight: bold;
+    font-size: 40px;
+
+    &.firstName {
+      margin-right: 10px;
+      color: $secondary-color;
+    }
+
+    &.lastName {
+      color: $primary-color;
+    }
+  }
+
+  p {
+    text-align: justify;
+  }
+}
