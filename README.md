@@ -1,4 +1,3 @@
-# added whitespace for forced change. This can be removed.
 # Lyndsie Lane's Blog
 
 [![Azure Static Web Apps CI/CD](https://github.com/lyndsielane/lyndsie-lane-portfolio-typescript-react/actions/workflows/azure-static-web-apps-ambitious-beach-084b8a90f.yml/badge.svg?branch=main)](https://github.com/lyndsielane/lyndsie-lane-portfolio-typescript-react/actions/workflows/azure-static-web-apps-ambitious-beach-084b8a90f.yml)
