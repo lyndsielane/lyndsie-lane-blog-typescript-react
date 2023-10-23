@@ -32,7 +32,7 @@ function About() {
         Holy Spirit within her that led Lyndsie through the darkness of despair.
         <br></br>
         Join Lyndsie as she shares her story. One of unlikely heroes, overcoming
-        challenges, and a special type of magic called hope.{" "}
+        challenges, and a special type of magic called hope.
       </p>
     </div>
   );
