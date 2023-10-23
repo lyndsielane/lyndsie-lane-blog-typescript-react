@@ -18,7 +18,6 @@ function About() {
         and so many things in between it all. The blurb is below, I hope to
         publish it by the end of 2024. Enjoy.
       </p>
-      <br></br>
       <p>
         Can hope survive in the midst of unimaginable tragedy?<br></br>
         Losing a child is every parents’ worst nightmare. Yet that brutal
