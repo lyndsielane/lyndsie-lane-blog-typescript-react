@@ -6,22 +6,33 @@ function About() {
       <span className="name firstName">Lyndsie</span>
       <span className="name lastName">Lane</span>
       <p>
-        Hello, I'm Lyndsie Lane, a full-stack developer with a passion for
-        front-end and the user experience. I have a background in customer
-        service and management. I have implemented new services and trained
-        employees while streamlining new business practices. I am well versed in
-        deescalation and ensuring customers are cared for throughout any
-        processes involved in fulfilling their needs. My experience has given me
-        detailed views of business from the customer, employee, and business
-        standpoint.
+        Hello, I'm Lyndsie Lane, a Christian, wife, and mother with a passion
+        for the written word. I am a full time business analyst and write in my
+        spare time, when I find some. I am a chronic pain warrior with
+        Fibromyalgia, Arthritis, Degenerative Disc Disease, and IBS. I'm also a
+        mental health warrior dealing with Bipolar 1, PTSD, and generalized and
+        social anxiety.
       </p>
       <p>
-        After studying coding at Georgia Tech, I am moving into a coding career
-        and know that my past experience will bring value into this new career
-        path. My creativity, dedication, and hard work combined with bountiful
-        experience make me a great fit for any application or website
-        development. I look forward to centering my work on ensuring a well
-        planned and executed customer first experience.
+        I am currently working on writing my story of trauma, love, loss, grief,
+        and so many things in between it all. The blurb is below, I hope to
+        publish it by the end of 2024. Enjoy.
+      </p>
+      <br></br>
+      <p>
+        Can hope survive in the midst of unimaginable tragedy?<br></br>
+        Losing a child is every parents’ worst nightmare. Yet that brutal
+        reality is exactly what Lyndsie Lane was forced to endure. <br></br>
+        After watching her young daughter lose her battle with Cystic Fibrosis,
+        Lyndsie hunted for hope in her darkest hour. That was when she learned a
+        lesson that has carried her through every day since. Turning to the
+        light in hard times is a choice, and not an easy one. But survival
+        depends on it.<br></br>
+        Lyndsie's faith was tested time and again. Still, it was the fire of the
+        Holy Spirit within her that led Lyndsie through the darkness of despair.
+        <br></br>
+        Join Lyndsie as she shares her story. One of unlikely heroes, overcoming
+        challenges, and a special type of magic called hope.{" "}
       </p>
     </div>
   );
