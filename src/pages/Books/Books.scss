@@ -3,6 +3,7 @@
 .BooksItem {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .bookCover {
@@ -13,16 +14,22 @@
 .topRow {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
+}
 
-  .bookTitle {
-    font-size: 22px;
-    font-weight: bold;
-    color: $secondary-color;
-  }
+.bookTitle {
+  font-size: 22px;
+  font-weight: bold;
+  color: $secondary-color;
+}
 
-  .seriesTitle {
-    font-size: 20px;
-    color: $primary-color;
-  }
+.seriesTitle {
+  font-size: 20px;
+  color: $primary-color;
+}
+
+.vertical-row {
+  float: left;
+  height: 100px;
+  width: 5px;
 }
