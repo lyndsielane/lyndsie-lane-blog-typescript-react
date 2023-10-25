@@ -1,6 +1,6 @@
 import { NavBarItem, Footer } from "../";
 import "./NavBar.scss";
-import { LyndsieLane } from "../../assets/images";
+import LyndsieLane from "../../assets/images/LyndsieLane.jpeg";
 //import { FiMenu } from "react-icons/fi";
 //import { useState, useEffect } from "react";
 
