@@ -3,7 +3,7 @@ import "./index.scss";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { NavBar } from "./components";
-import { About, Education, Experience, Interests, Portfolio, Skills } from "./pages";
+import { About, Education, Experience, Interests, Skills } from "./pages";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -19,7 +19,6 @@ root.render(
           <Route path="/education" element={<Education />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/interests" element={<Interests />} />
-          <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/skills" element={<Skills />} />
         </Routes>
       </div>
