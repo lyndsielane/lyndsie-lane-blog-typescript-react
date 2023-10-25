@@ -1,6 +1,6 @@
 import About from "./About/About";
 import Resume from "./Resume/Resume";
 import Interests from "./Interests/Interests";
-import Skills from "./Skills/Skills";
+import Books from "./Books/Books";
 
-export { About, Resume, Interests, Skills };
+export { About, Resume, Interests, Books };

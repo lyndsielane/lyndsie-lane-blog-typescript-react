@@ -2,7 +2,7 @@
 
 $border-radius: 5%;
 
-.SkillsItem {
+.BooksItem {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -36,7 +36,7 @@ $border-radius: 5%;
 }
 
 @media screen and (max-width: 1300px) {
-  .SkillsItem {
+  .BooksItem {
     margin-bottom: 30px;
   }
 }

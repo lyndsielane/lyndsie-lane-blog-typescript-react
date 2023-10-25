@@ -35,7 +35,7 @@ function NavBar() {
         <div className="items">
           <NavBarItem label="ABOUT" href="/" isHome={true} />
           <NavBarItem label="RESUME" href="/resume" />
-          <NavBarItem label="SKILLS" href="/skills" />
+          <NavBarItem label="BOOKS" href="/books" />
           <NavBarItem label="INTERESTS" href="/interests" />
         </div>
       </div>
