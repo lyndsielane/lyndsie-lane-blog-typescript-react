@@ -3,7 +3,7 @@ import "./index.scss";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { NavBar } from "./components";
-import { About, Resume, Interests, Books } from "./pages";
+import { About, Resume, Blog, Books } from "./pages";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -17,7 +17,7 @@ root.render(
         <Routes>
           <Route path="*" element={<About />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/interests" element={<Interests />} />
+          <Route path="/blog" element={<Blog />} />
           <Route path="/books" element={<Books />} />
         </Routes>
       </div>
