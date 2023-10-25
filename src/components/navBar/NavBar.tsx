@@ -34,8 +34,7 @@ function NavBar() {
         {/*<FiMenu className="menuIcon" onClick={ onMenuClickHandler } />*/}
         <div className="items">
           <NavBarItem label="ABOUT" href="/" isHome={true} />
-          <NavBarItem label="EXPERIENCE" href="/experience" />
-          <NavBarItem label="EDUCATION" href="/education" />
+          <NavBarItem label="RESUME" href="/resume" />
           <NavBarItem label="SKILLS" href="/skills" />
           <NavBarItem label="INTERESTS" href="/interests" />
         </div>

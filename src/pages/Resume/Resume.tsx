@@ -1,10 +1,10 @@
-import { ExperienceItem } from "../../components";
-import "./Experience.scss";
+import { ResumeItem } from "../../components";
+import "./Resume.scss";
 
-function Experience() {
+function Resume() {
   return (
-    <div className="Experience">
-      <ExperienceItem
+    <div className="Resume">
+      <ResumeItem
         companyName="PatientNow"
         title="Web Developer"
         description="Corresponded with customers, account managers, and upper management to build and maintain 400+ websites and content to customers' satisfaction.
@@ -17,7 +17,7 @@ function Experience() {
         toDate="Oct 2022"
       />
       <hr />
-      <ExperienceItem
+      <ResumeItem
         companyName="Kemira"
         title="Customer Service Team Lead"
         description="Coached Coagulants Customer Service Team servicing US and Canada, totaling six members.
@@ -36,4 +36,4 @@ function Experience() {
   );
 }
 
-export default Experience;
+export default Resume;
