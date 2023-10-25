@@ -1,5 +1,5 @@
 import "./Books.scss";
-import ComingSoon from "public/images/ComingSoon.png";
+import comingSoon from "../../assets/images/ComingSoon.png";
 
 function Books() {
   return (
@@ -8,7 +8,7 @@ function Books() {
         <div className="bookTitle">Field of Innocence</div>
         <div className="seriesTitle">The Euphoria Series</div>
         <div className="bookCover">
-          <img src="ComingSoon"></img>
+          <img src={comingSoon} alt="book cover" />
         </div>
         <div className="buyLink">COMING SOON</div>
       </div>

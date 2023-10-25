@@ -5,6 +5,11 @@
   flex-direction: column;
 }
 
+.bookCover {
+  display: flex;
+  align-items: center;
+}
+
 .topRow {
   display: flex;
   flex-direction: column;
