@@ -8,7 +8,7 @@ function Books() {
         <div className="stillYours">
           <div className="bookTitle">I'm Still Yours</div>
           <div className="seriesTitle">
-            When Hope Rises from the Ashes of Darkness
+            Hope Rises from<br></br> the Ashes of Darkness
           </div>
           <div className="bookCover">
             <img src={comingSoon} alt="book cover" />
@@ -16,6 +16,7 @@ function Books() {
           <div className="buyLink">COMING SOON</div>
         </div>
       </div>
+      <hr></hr>
       <div className="verticalRow"></div>
       <div className="BooksItem">
         <div className="stillYours">
@@ -26,12 +27,14 @@ function Books() {
           </div>
           <div className="buyLink">COMING SOON</div>
         </div>
+        <div className="verticalRow"></div>
         <div className="stillYours">
           <div className="bookTitle">Hollow of Treason</div>
           <div className="seriesTitle">The Euphoria Series</div>
           <div className="bookCover">
             <img src={comingSoon} alt="book cover" />
           </div>
+          <div className="verticalRow"></div>
           <div className="buyLink">COMING SOON</div>
         </div>
         <div className="stillYours">
@@ -40,6 +43,7 @@ function Books() {
           <div className="bookCover">
             <img src={comingSoon} alt="book cover" />
           </div>
+          <div className="verticalRow"></div>
           <div className="buyLink">COMING SOON</div>
         </div>
         <div className="stillYours">
