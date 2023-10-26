@@ -5,6 +5,14 @@ function Resume() {
   return (
     <div className="Resume">
       <ResumeItem
+        companyName="P3S"
+        title="Business Analyst"
+        description="Contractor through P3S working for the CDC VTrckS Program. I am a Business Analyst and Subject Matter Expert with the Vaccine Tracking System (VTrckS). I analyze, test, and document issues and fixes for HPQC Back office and Awardee tickets. I assist with the Business Requirements Documentation for updates, conversion projects, and pandemic additions. I collaborate with my coworkers to test these systems' functions and regression testing. I execute ExIS File Testing activities for Awardee (state) IIS systems and troubleshoot any issues when bulk ordering in the VTrckS System. I attend all meetings for BA/PGM, ExIS Updates/work sessions/BRD updates, ExIS Training with States, Pharmacy/Federal Agency Spec adjustments, and testing. "
+        fromDate="Jan 2023"
+        toDate="Present"
+      />
+      <hr />
+      <ResumeItem
         companyName="PatientNow"
         title="Web Developer"
         description="Corresponded with customers, account managers, and upper management to build and maintain 400+ websites and content to customers' satisfaction.
