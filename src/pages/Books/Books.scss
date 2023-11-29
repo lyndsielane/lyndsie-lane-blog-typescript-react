@@ -2,19 +2,11 @@
 
 .BooksItem {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
 .bookCover {
   display: flex;
   align-items: center;
-}
-
-.bottomRow .topRow {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .bookTitle {
@@ -24,12 +16,7 @@
 }
 
 .seriesTitle {
-  font-size: 16px;
+  font-size: 18px;
   color: $primary-color;
-}
-
-.vertical-row {
-  float: left;
-  height: 100px;
-  width: 125px;
+  justify-content: center;
 }
