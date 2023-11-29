@@ -18,7 +18,6 @@ function About() {
         and so many things in between it all. The blurb is below, I hope to
         publish it by the end of 2024. Enjoy.
       </p>
-      <br></br>
       <p>
         Can hope survive in the midst of unimaginable tragedy?<br></br>
         Losing a child is every parents’ worst nightmare. Yet that brutal
@@ -32,7 +31,7 @@ function About() {
         Holy Spirit within her that led Lyndsie through the darkness of despair.
         <br></br>
         Join Lyndsie as she shares her story. One of unlikely heroes, overcoming
-        challenges, and a special type of magic called hope.{" "}
+        challenges, and a special type of magic called hope.
       </p>
     </div>
   );
