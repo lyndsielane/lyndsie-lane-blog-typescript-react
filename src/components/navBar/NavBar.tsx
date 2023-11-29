@@ -1,6 +1,6 @@
 import { NavBarItem, Footer } from "../";
 import "./NavBar.scss";
-import { LyndsieLane } from "../../assets/images";
+import LyndsieLane from "../../assets/images/LyndsieLane.jpeg";
 //import { FiMenu } from "react-icons/fi";
 //import { useState, useEffect } from "react";
 
@@ -34,11 +34,9 @@ function NavBar() {
         {/*<FiMenu className="menuIcon" onClick={ onMenuClickHandler } />*/}
         <div className="items">
           <NavBarItem label="ABOUT" href="/" isHome={true} />
-          <NavBarItem label="EXPERIENCE" href="/experience" />
-          <NavBarItem label="EDUCATION" href="/education" />
-          <NavBarItem label="PORTFOLIO" href="/portfolio" />
-          <NavBarItem label="SKILLS" href="/skills" />
-          <NavBarItem label="INTERESTS" href="/interests" />
+          <NavBarItem label="RESUME" href="/resume" />
+          <NavBarItem label="BOOKS" href="/books" />
+          <NavBarItem label="BLOG" href="/blog" />
         </div>
       </div>
       <Footer />

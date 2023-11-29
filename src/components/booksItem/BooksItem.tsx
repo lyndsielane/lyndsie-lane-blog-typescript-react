@@ -1,18 +1,23 @@
-import "./SkillsItem.scss";
+import "./BooksItem.scss";
 import { AiFillGithub } from "react-icons/ai";
 
-interface SkillsItemProps {
+interface BooksItemProps {
   imgSrc: string;
   alt: string;
   techStack: string;
   githubRepo: string;
 }
 
-function SkillsItem(props: SkillsItemProps) {
+function BooksItem(props: BooksItemProps) {
   return (
-    <div className="SkillsItem">
+    <div className="BooksItem">
       <img src={props.imgSrc} alt={props.alt} />
-      <a className="details" href={props.githubRepo} target="_blank" rel="noreferrer">
+      <a
+        className="details"
+        href={props.githubRepo}
+        target="_blank"
+        rel="noreferrer"
+      >
         <AiFillGithub className="icon" />
         <span className="techStack">{props.techStack}</span>
       </a>
@@ -20,4 +25,4 @@ function SkillsItem(props: SkillsItemProps) {
   );
 }
 
-export default SkillsItem;
+export default BooksItem;

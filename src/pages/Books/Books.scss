@@ -1,0 +1,35 @@
+@import "../../variables.scss";
+
+.BooksItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bookCover {
+  display: flex;
+  align-items: center;
+}
+
+.bottomRow .topRow {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bookTitle {
+  font-size: 20px;
+  font-weight: bold;
+  color: $secondary-color;
+}
+
+.seriesTitle {
+  font-size: 16px;
+  color: $primary-color;
+}
+
+.vertical-row {
+  float: left;
+  height: 100px;
+  width: 125px;
+}
