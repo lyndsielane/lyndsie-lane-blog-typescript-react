@@ -1,5 +1,5 @@
 import "./Books.scss";
-import comingSoon from "../../assets/images/ComingSoon.png";
+import stillYours from "../../assets/images/StillYours.jpg";
 
 function Books() {
   return (
@@ -11,7 +11,7 @@ function Books() {
             Hope Rises from<br></br> the Ashes of Darkness
           </div>
           <div className="bookCover">
-            <img src={comingSoon} alt="book cover" />
+            <img src={stillYours} alt="book cover" />
           </div>
           <div className="buyLink">COMING SOON</div>
         </div>
