@@ -13,6 +13,11 @@ function Books() {
           <div className="bookCover">
             <img src={stillYours} alt="book cover" />
           </div>
+          <div className="blurb">
+            <p>
+              
+            </p>
+          </div>
           <div className="buyLink">COMING SOON</div>
         </div>
       </div>
