@@ -1,6 +1,7 @@
 import { NavBarItem, Footer } from "../";
 import "./NavBar.scss";
 import LyndsieLane from "../../assets/images/LyndsieLane.jpeg";
+import Logo from "../../assets/images/Logo.png";
 //import { FiMenu } from "react-icons/fi";
 //import { useState, useEffect } from "react";
 
@@ -39,6 +40,7 @@ function NavBar() {
           <NavBarItem label="BLOG" href="/blog" />
         </div>
       </div>
+      <img className="Logo" src={Logo} alt="Logo" />
       <Footer />
     </div>
   );
