@@ -1,5 +1,6 @@
 import "./Projects.scss";
 import imgPlaceholder from "../../assets/images/ImgPlaceholder.png";
+import { Link } from "react-router-dom";
 
 function Projects() {
   return (
