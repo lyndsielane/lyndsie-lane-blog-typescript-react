@@ -1,0 +1,57 @@
+@import "../../variables.scss";
+
+.ProjectsItem {
+  display: flex;
+  justify-content: space-between;
+}
+
+.projectScreenshot {
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+.ProjectsTitle {
+  font-size: 20px;
+  font-weight: bold;
+  color: $secondary-color;
+  padding-bottom: 5px;
+}
+
+.projectsDescription {
+  padding-bottom: 5px;
+}
+
+.linksContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+
+.repoLink {
+  background-color: $primary-color;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #ddd;
+}
+
+.repoLink:hover {
+  background-color: $accent-color;
+}
+
+.siteLink {
+  background-color: $secondary-color;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #ddd;
+}
+
+.siteLink:hover {
+  background-color: $accent-color;
+}
+
+a {
+  color: #ddd;
+  text-decoration: none;
+}
