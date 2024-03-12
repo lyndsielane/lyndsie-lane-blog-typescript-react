@@ -1,0 +1,42 @@
+@import "../../variables.scss";
+
+$border-radius: 5%;
+
+.SkillsItem {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+
+  img {
+    border: 4px solid $accent-color;
+    border-radius: $border-radius;
+    height: 225px;
+  }
+
+  #wordpress {
+    width: 225px;
+  }
+
+  .details {
+    color: $accent-color;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+    .icon {
+      font-size: 20px;
+    }
+
+    .techStack {
+      margin-left: 5px;
+    }
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .SkillsItem {
+    margin-bottom: 30px;
+  }
+}
