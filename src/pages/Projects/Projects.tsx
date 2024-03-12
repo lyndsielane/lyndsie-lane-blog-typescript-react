@@ -13,10 +13,10 @@ function Projects() {
           </div>
           <div className="linksContainer">
             <div className="repoLink">
-              <a href="#">Repo</a>
+              <a href="/#">Repo</a>
             </div>
             <div className="siteLink">
-              <a href="#">Site</a>
+              <a href="/#">Site</a>
             </div>
           </div>
         </div>
@@ -28,10 +28,10 @@ function Projects() {
           </div>
           <div className="linksContainer">
             <div className="repoLink">
-              <a href="#">Repo</a>
+              <a href="/#">Repo</a>
             </div>
             <div className="siteLink">
-              <a href="#">Site</a>
+              <a href="/#">Site</a>
             </div>
           </div>
         </div>
@@ -43,10 +43,10 @@ function Projects() {
           </div>
           <div className="linksContainer">
             <div className="repoLink">
-              <a href="#">Repo</a>
+              <a href="/#">Repo</a>
             </div>
             <div className="siteLink">
-              <a href="#">Site</a>
+              <a href="/#">Site</a>
             </div>
           </div>
         </div>
@@ -58,10 +58,10 @@ function Projects() {
           </div>
           <div className="linksContainer">
             <div className="repoLink">
-              <a href="#">Repo</a>
+              <a href="/#">Repo</a>
             </div>
             <div className="siteLink">
-              <a href="#">Site</a>
+              <a href="/#">Site</a>
             </div>
           </div>
         </div>
