@@ -40,7 +40,7 @@ function NavBar() {
           <NavBarItem label="BLOG" href="/blog" />
         </div>
       </div>
-      <img className="Logo" src={Logo} alt="Logo" />
+      <img className="logo" src={Logo} alt="Logo" />
       <Footer />
     </div>
   );
