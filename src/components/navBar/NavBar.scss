@@ -8,6 +8,10 @@
   width: 300px;
   background-color: $primary-color;
 
+  .logo {
+    width: 300px;
+  }
+
   .topSection {
     margin-top: 30px;
 
@@ -29,7 +33,7 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-  
+
       /*&.hidden {
         visibility: hidden;
       }*/
