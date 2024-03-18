@@ -52,20 +52,20 @@ function NavBar() {
           target="_blank"
           rel="noopener"
         >
-          <img src={linkedIn} />
+          <img src={linkedIn} alt="linkedIn" />
         </a>
         <a
           href="https://dribbble.com/lyndsielane"
           target="_blank"
           rel="noopener"
         >
-          <img src={dribble} />
+          <img src={dribble} alt="dribble" />
         </a>
         <a href="https://github.com/lyndsielane" target="_blank" rel="noopener">
-          <img src={github} />
+          <img src={github} alt="github" />
         </a>
         <a href="mailto:lyndsieelane@gmail.com" target="_blank" rel="noopener">
-          <img src={email} />
+          <img src={email} alt="email" />
         </a>
       </div>
       <Footer />
