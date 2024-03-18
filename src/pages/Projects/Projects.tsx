@@ -1,5 +1,5 @@
 import "./Projects.scss";
-import portfolioImg from "../../assets/images/Portfolio.png";
+import portfolioImg from "../../assets/images/lyndsielane.com-LyndsieLane.jpeg";
 import parallaxImg from "../../assets/images/Parallax Site.png";
 import signupImg from "../../assets/images/signuppage.png";
 
