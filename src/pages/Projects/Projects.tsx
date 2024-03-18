@@ -1,6 +1,6 @@
 import "./Projects.scss";
 import portfolioImg from "../../assets/images/lyndsielane.com-LyndsieLane.jpeg";
-import parallaxImg from "../../assets/images/Parallax Site.png";
+import parallaxImg from "../../assets/images/lyndsielane.github.io-ParallaxSite.png";
 import signupImg from "../../assets/images/signuppage.png";
 
 function Projects() {
