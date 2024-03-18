@@ -20,6 +20,7 @@ function Projects() {
               <a
                 href="https://github.com/lyndsielane/html-css-parallaxsite"
                 target="_blank"
+                rel="noreferrer"
               >
                 Repo
               </a>
@@ -28,6 +29,7 @@ function Projects() {
               <a
                 href="https://lyndsielane.github.io/html-css-parallaxsite/"
                 target="_blank"
+                rel="noreferrer"
               >
                 Site
               </a>
