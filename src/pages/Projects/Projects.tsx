@@ -1,14 +1,45 @@
 import "./Projects.scss";
 import portfolioImg from "../../assets/images/Portfolio.png";
 import parallaxImg from "../../assets/images/Parallax Site.png";
+import signupImg from "../../assets/images/signuppage.png";
+
 function Projects() {
   return (
     <div>
       <div className="ProjectsItem">
         <div>
+          <div className="ProjectsTitle">Sign-up Page</div>
+          <div className="projectsDescription">
+            A basic Sign-up Page designed using HTML & CSS.
+          </div>
+          <div className="projectScreenshot">
+            <img src={signupImg} alt="screenshot of project" />
+          </div>
+          <div className="linksContainer">
+            <div className="repoLink">
+              <a
+                href="https://github.com/lyndsielane/signup-page"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Repo
+              </a>
+            </div>
+            <div className="siteLink">
+              <a
+                href="https://lyndsielane.github.io/signup-page//"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Site
+              </a>
+            </div>
+          </div>
+        </div>
+        <div>
           <div className="ProjectsTitle">Parallax Website</div>
           <div className="projectsDescription">
-            A basic Parallax Website desing using HTML & CSS.
+            A basic Parallax Website designed using HTML & CSS.
           </div>
           <div className="projectScreenshot">
             <img src={parallaxImg} alt="screenshot of project" />
