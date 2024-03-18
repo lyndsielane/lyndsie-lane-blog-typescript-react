@@ -1,5 +1,4 @@
 import "./Projects.scss";
-import imgPlaceholder from "../../assets/images/ImgPlaceholder.png";
 import portfolioImg from "../../assets/images/Portfolio.png";
 import parallaxImg from "../../assets/images/Parallax Site.png";
 import { Link } from "react-router-dom";
