@@ -2,6 +2,10 @@ import { NavBarItem, Footer } from "../";
 import "./NavBar.scss";
 import LyndsieLane from "../../assets/images/LyndsieLane.jpeg";
 import Logo from "../../assets/images/Logo.png";
+import linkedIn from "../../assets/images/linkedin.jpeg";
+import dribble from "../../assets/images/dribble.webp";
+import github from "../../assets/images/github.png";
+import email from "../../assets/images/email.png";
 //import { FiMenu } from "react-icons/fi";
 //import { useState, useEffect } from "react";
 
@@ -42,6 +46,28 @@ function NavBar() {
         </div>
       </div>
       <img className="logo" src={Logo} alt="Logo" />
+      <div className="social">
+        <a
+          href="https://www.linkedin.com/in/lyndsielane/"
+          target="_blank"
+          rel="noopener"
+        >
+          <img src={linkedIn} />
+        </a>
+        <a
+          href="https://dribbble.com/lyndsielane"
+          target="_blank"
+          rel="noopener"
+        >
+          <img src={dribble} />
+        </a>
+        <a href="https://github.com/lyndsielane" target="_blank" rel="noopener">
+          <img src={github} />
+        </a>
+        <a href="mailto:lyndsieelane@gmail.com" target="_blank" rel="noopener">
+          <img src={email} />
+        </a>
+      </div>
       <Footer />
     </div>
   );
