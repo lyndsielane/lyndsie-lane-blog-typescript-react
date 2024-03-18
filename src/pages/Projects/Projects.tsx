@@ -2,11 +2,41 @@ import "./Projects.scss";
 import portfolioImg from "../../assets/images/lyndsielane.com-LyndsieLane.jpeg";
 import parallaxImg from "../../assets/images/lyndsielane.github.io-ParallaxSite.png";
 import signupImg from "../../assets/images/signuppage.png";
+import landingImg from "../../assets/images/lyndsielane.github.io-OutofTimeLandingPage.jpeg";
 
 function Projects() {
   return (
     <div>
       <div className="ProjectsItem">
+        <div>
+          <div className="ProjectsTitle">Landing Page</div>
+          <div className="projectsDescription">
+            A book series landing Page designed using HTML & CSS.
+          </div>
+          <div className="projectScreenshot">
+            <img src={landingImg} alt="screenshot of project" />
+          </div>
+          <div className="linksContainer">
+            <div className="repoLink">
+              <a
+                href="https://github.com/lyndsielane/landing-page"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Repo
+              </a>
+            </div>
+            <div className="siteLink">
+              <a
+                href="https://lyndsielane.github.io/landing-page/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Site
+              </a>
+            </div>
+          </div>
+        </div>
         <div>
           <div className="ProjectsTitle">Sign-up Page</div>
           <div className="projectsDescription">
