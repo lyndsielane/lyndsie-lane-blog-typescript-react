@@ -50,21 +50,29 @@ function NavBar() {
         <a
           href="https://www.linkedin.com/in/lyndsielane/"
           target="_blank"
-          rel="noopener"
+          rel="noreferrer"
         >
           <img src={linkedIn} alt="linkedIn" />
         </a>
         <a
           href="https://dribbble.com/lyndsielane"
           target="_blank"
-          rel="noopener"
+          rel="noreferrer"
         >
           <img src={dribble} alt="dribble" />
         </a>
-        <a href="https://github.com/lyndsielane" target="_blank" rel="noopener">
+        <a
+          href="https://github.com/lyndsielane"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src={github} alt="github" />
         </a>
-        <a href="mailto:lyndsieelane@gmail.com" target="_blank" rel="noopener">
+        <a
+          href="mailto:lyndsieelane@gmail.com"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src={email} alt="email" />
         </a>
       </div>
