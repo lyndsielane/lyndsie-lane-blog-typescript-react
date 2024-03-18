@@ -1,8 +1,6 @@
 import "./Projects.scss";
 import portfolioImg from "../../assets/images/Portfolio.png";
 import parallaxImg from "../../assets/images/Parallax Site.png";
-import { Link } from "react-router-dom";
-
 function Projects() {
   return (
     <div>
@@ -49,12 +47,17 @@ function Projects() {
               <a
                 href="https://github.com/lyndsielane/lyndsie-lane-blog-typescript-react/tree/main/public"
                 target="_blank"
+                rel="noreferrer"
               >
                 Repo
               </a>
             </div>
             <div className="siteLink">
-              <a href="https://lyndsielane.com/" target="_blank">
+              <a
+                href="https://lyndsielane.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Site
               </a>
             </div>
