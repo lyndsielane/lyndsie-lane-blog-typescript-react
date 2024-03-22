@@ -2,10 +2,13 @@ import { NavBarItem, Footer } from "../";
 import "./NavBar.scss";
 import LyndsieLane from "../../assets/images/LyndsieLane.jpeg";
 import Logo from "../../assets/images/Logo.png";
-import linkedIn from "../../assets/images/linkedin.jpeg";
-import dribble from "../../assets/images/dribble.webp";
-import github from "../../assets/images/github.png";
-import email from "../../assets/images/email.png";
+import ReactDOM from "react-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faDribbble } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
 //import { FiMenu } from "react-icons/fi";
 //import { useState, useEffect } from "react";
 
@@ -52,28 +55,44 @@ function NavBar() {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={linkedIn} alt="linkedIn" />
+          <FontAwesomeIcon
+            icon={faLinkedin}
+            size="2xl"
+            style={{ color: "#ffffff" }}
+          />
         </a>
         <a
           href="https://dribbble.com/lyndsielane"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={dribble} alt="dribble" />
+          <FontAwesomeIcon
+            icon={faDribbble}
+            size="2xl"
+            style={{ color: "#ffffff" }}
+          />
         </a>
         <a
           href="https://github.com/lyndsielane"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={github} alt="github" />
+          <FontAwesomeIcon
+            icon={faGithub}
+            size="2xl"
+            style={{ color: "#ffffff" }}
+          />
         </a>
         <a
           href="mailto:lyndsieelane@gmail.com"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={email} alt="email" />
+          <FontAwesomeIcon
+            icon={faEnvelope}
+            size="2xl"
+            style={{ color: "#ffffff" }}
+          />
         </a>
       </div>
       <Footer />
